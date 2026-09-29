@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio - Projects</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #1f3c88;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: #f5f7fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #1f3c88;
+        }
+
+        .project h3 {
+            color: #1f3c88;
+            margin-top: 0;
+        }
+
+        .project p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Student Portfolio | Projects & Skills</p>
+    </header>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>AI-Based Landslide Risk Monitoring System</h3>
+                <p>
+                    An AI-based system that uses sensor, weather,
+                    satellite and historical data to identify landslide
+                    risk and provide early warnings.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A responsive portfolio website designed to showcase
+                    skills, projects, certificates and achievements.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Data Science Project</h3>
+                <p>
+                    A data analysis project using Python and machine
+                    learning techniques to obtain useful insights from data.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
